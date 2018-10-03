@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Alex's Website</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Alex Millan</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#proj-academ">Projects - Academics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#proj-self">Projects - Self-Started</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <h1 class="mb-0">Alejandro
+            <span class="text-primary">Millan</span>
+          </h1>
+          <div class="subheading mb-5"> (714) 270-5178 ·
+            <a href="mailto:alex.millan123@gmail.com">alex.millan123@gmail.com</a>
+          </div>
+          <p class="lead mb-5">
+            I am experienced in designing and developing embedded systems.
+            I work best in a team but am fully capable of working on my own as
+            you can see from my self-started projects.
+
+            </p>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/a-millan">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/Alex-Millan">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <hr class="m-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="proj-academ">
+        <div class="my-auto">
+          <h2 class="mb-5">Projects - Academics</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Lock System</h3>
+              <div class="subheading mb-3">Hardware used: NFC, WiFi, STM32</div>
+              <div class="subheading mb-3">Program language: C</div>
+              <p>
+                Designed, budgeted and constructed a University lock system which operated at
+                4 AA batteries. We acheived maximum battery life of the lock by
+                choosing a low powered microcontroller along with putting the
+                hardware to sleep. Every 500 ms the hardware would wake up and
+                check for any updates. Communications between the NFC and WiFi hardware
+                was done using UART and SPI respectively. We cross reference
+                the password entered with a database to see if the current student or faculty has
+                access to the lock.
+
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Date completed: June 2018</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Robotic Assembly Line Simulation</h3>
+              <div class="subheading mb-3">Software used: V-Rep, MATLAB</div>
+              <div class="subheading mb-3">Programming language: Lau</div>
+              <p>
+                Simulated the maximum throughput of an assembly line with robots that
+                stacked boxes. Afterwards, we disabled one of the robots and compared
+                the new throughput. We then discovered the critical robot which
+                slows down the production the most. All robots had an overlapping
+                workspace so that any robot could take over the fallen robots task.
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Date completed: June 2018</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Oscilloscope</h3>
+              <div class="subheading mb-3">Microcontroller used: PSoC 5LP, Raspberry Pi 3</div>
+              <div class="subheading mb-3">Programmed language: C</div>
+              <p>
+                Created an oscilloscope with a PSoC 5LP and Raspberry Pi 3
+                microcontrollers. Communications between the two devices were
+                done using a USB protocol. Applied Nyquist Theorem to get
+                maximum data transfer rate of.
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Date completed: March 2018</span>
+            </div>
+          </div>
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Study Buddies App</h3>
+              <div class="subheading mb-3">Software used: Android Studios</div>
+              <p>
+                Developed an Android app with a team of 4 that included a JSON database,
+                network communication, and GPS integration. The app allowed users
+                to select classes they are enrolled in and find/create study groups for that
+                class. I used a python programmed to webscrape the courses from the University catelog.
+
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Date completed: June 2017</span>
+            </div>
+          </div>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Autonomous Robot</h3>
+              <div class="subheading mb-3">Programming language: C</div>
+              <p>
+                Built a fully autonomous vehicle with an electrical and mechanical
+                team of 3. The robot size was 11" X 11" X 11". The robot had to
+                navigate through a field, get ammo, shoot the ammo at a target,
+                and repeat until the 3 minute timer ran out. An 11" x 11" x 11" obstacle
+                was randomly place in the field which the robot had to avoid. Programmed and
+                debugged a hierarchical state machine
+                in an embedded system. Constructed vehicle’s frame in SolidWorks.
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Date completed: December 2016</span>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="proj-self">
+        <div class="my-auto">
+          <h2 class="mb-5">Projects - Self-Started</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Robotic Arm Controller</h3>
+              <div class="subheading mb-3">Program language: C++</div>
+              <p>
+                  Using a Raspberry Pi 3 and L293D H-bridge, I was able to control a robotic
+                  arm via keyboard. The next stage of this project will be to
+                  add a camera and organize a set of colored pencils automatically.
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">In Progress. . .</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Chess Game</h3>
+              <div class="subheading mb-3">Program language: Java</div>
+              <p>
+                  Programmed a Chess Game using Jframe. Main motivation of this project
+                  was to learn more about java, object orientation, and inheritance.
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Date completed: September 2018</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Touch That Ball</h3>
+              <div class="subheading mb-3">Software used: Android Studios</div>
+              <p>
+                Created a game with 3 different colored balls bouncing across the screen. The player
+                must tap all the balls that match the game ball in the upper-center of the screen within
+                a time limit. The number of balls increase each level. The highest score the player reach
+                gets recorded on their phones. Multithreading was use to allow for balls animation to occur
+                while keeping the main GUI responsive to players.
+
+
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Date completed: September 2016</span>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <hr class="m-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+          <h2 class="mb-5">Education</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">University of California Santa Cruz</h3>
+              <div class="subheading mb-3">Bachelor of Science</div>
+              <div>Robotics Engineering</div>
+              <p>GPA: 3.02</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">September 2014 - June 2018</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <hr class="m-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <div class="my-auto">
+          <h2 class="mb-5">Skills</h2>
+
+          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+          <ul class="dev-icons">
+            <li class="list-inline-item">
+              <i class="fab fa-java"></i>
+              Java
+            </li>
+            <li class="list-inline-item">
+              C
+            </li>
+            <li class="list-inline-item">
+              C++
+            </li>
+          </ul>
+
+          <div class="subheading mb-3">Tools</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Oscilloscope</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Logic Analyzer</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Voltmeter</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Ampmeter</li>
+              <li>
+                <i class="fa-li fa fa-check"></i>
+                Waveform generator</li>
+                <li>
+                <i class="fa-li fa fa-check"></i>
+                laser cutter</li>
+                <li>
+                <i class="fa-li fa fa-check"></i>
+                Soldering</li>
+          </ul>
+        </div>
+      </section>
+
+      <hr class="m-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+        <div class="my-auto">
+          <h2 class="mb-5">Interests</h2>
+          <p>
+            When I'm not building or experimenting on new ideas, I enjoy reading books and exploring new places.
+            Playing basketball and hiking are personal favorite activities of mine.
+            I work hard but play harder.
+          </p>
+          <p class="mb-0">
+            Even outside of work, I do find myself working on robotic projects at home as a fun way to pass time.
+            After learning new things I always like looking for ways to apply it in the real world.
+            Bouncing new ideas, no matter how silly, is oddly satsifying to me.
+          </p>
+        </div>
+      </section>
+
+      <hr class="m-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+        <div class="my-auto">
+          <h2 class="mb-5">Awards &amp; Certifications</h2>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+                Dean's Honor List - UCSC 2018
+                </li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Project Chair for SHPE - UCSC 2017</li>
+          </ul>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
+  </body>
+
+</html>
